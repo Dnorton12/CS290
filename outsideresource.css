@@ -1,0 +1,71 @@
+.homeHeader {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-family: abril fatface;
+	text-transform: uppercase;
+	text-shadow: 0px 4px 8px #F8C471;
+	}
+	
+	* {
+	margin: 0;
+	padding:0;
+	background-color: black;
+	}
+	
+	nav{
+	width: 100%;
+	height: 100px;
+	background-color: Black;
+	}
+	
+	ol{
+		
+	}
+	
+	ol li {
+	list-style: none;
+	display: inline-block;
+	float: left;
+	line-height: 100px;
+	}
+	
+	ol li a {
+	display: Block;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: abril fatface;
+	color: white;
+	padding: 0 20px;
+	text-shadow: 0px 4px 8px #F8C471;
+	}
+
+	.header {
+		color: white;
+		font-family: abril fatface;
+		font-size: 35px;
+		text-align: center;
+		margin-top: 15px;
+		background-image: url('/Images/LaCrosse_Bridge.png');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		height: 1000px;
+	}
+
+	.linkheader{
+		background-color: transparent;
+		font-family: abril fatface;
+		color: white;
+		text-shadow: 0px 4px 8px #F8C471;
+	}
+
+	.link{
+		font-family: abril fatface;
+		color: white;
+		text-shadow: 0px 4px 8px #F8C471;
+		margin-top: 15px;
+		font-size: 20px;
+		background-color: transparent;
+	}

@@ -1,0 +1,152 @@
+.homeHeader {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-family: abril fatface;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 8px #F8C471;
+}
+
+* {
+	margin: 0;
+	padding:0;
+  background-color: black;
+  background-image: url('https://live.staticflickr.com/7160/6562362281_068e29c63f_b.jpg');
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+nav{
+	width: 100%;
+	height: 100px;
+	background-color: Black;
+}
+
+ol{
+	
+}
+
+ol li {
+	list-style: none;
+	display: inline-block;
+	float: left;
+	line-height: 100px;
+}
+
+ol li a {
+	display: Block;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: abril fatface;
+	color: white;
+	padding: 0 20px;
+  text-shadow: 0px 4px 8px #F8C471;
+}
+
+.carousel {
+  position: relative;
+  height: 500px;
+  width: 450px;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: #F8C471;
+}
+
+.carousel__image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.carousel__track-container {
+  background: grey;
+  height: 100%;
+  position: relative;
+}
+
+.carousel__track {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.carousel__slide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.carousel .prev,
+.carousel .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #F8C471;
+  font-weight: bold;
+  font-size: 20px;
+  transition: all 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.carousel .prev:hover,
+.carousel .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: whitesmoke;
+}
+
+.carousel .prev {
+  left: -50px;
+}
+
+.carousel .next {
+  right: -50px;
+}
+
+.about-us {
+  float: right;
+  width: 50%;
+}
+
+.about_head {
+  font-family: abril fatface;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.about_info {
+  font-family: abril fatface;
+  color: white;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+button {
+	font-family: abril fatface;
+	color: white;
+	text-shadow: 0px 4px 8px #F8C471;
+	margin-left: 320px;
+  width: 100px;
+}
+
+.open {
+	font-family: abril fatface;
+	color: white;
+	text-shadow: 0px 4px 8px #F8C471;
+	margin-left: 200px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
